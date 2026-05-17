@@ -244,7 +244,7 @@ faster to set up, and sufficient. PySpark would be introduced at 100GB+ scale
 
 | Component | Technology |
 |---|---|
-| LLM | Groq — LLaMA3-70B-8192 |
+| LLM | Groq — llama-3.3-70b-versatile |
 | Orchestration | LangGraph 0.4.x |
 | Chaining | LangChain 0.3.x |
 | Embeddings | HuggingFace all-MiniLM-L6-v2 |
@@ -262,7 +262,7 @@ faster to set up, and sufficient. PySpark would be introduced at 100GB+ scale
 | Variable | Description |
 |---|---|
 | `GROQ_API_KEY` | Groq API key |
-| `GROQ_MODEL_NAME` | Model name (default: `llama3-70b-8192`) |
+| `GROQ_MODEL_NAME` | Model name |
 | `HF_TOKEN` | HuggingFace token for embeddings |
 | `LANGCHAIN_API_KEY` | LangSmith observability key |
 | `LANGCHAIN_PROJECT` | LangSmith project name |
