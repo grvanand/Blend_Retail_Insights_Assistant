@@ -1,0 +1,32 @@
+# Core LLM & Orchestration
+langchain==0.3.25
+langchain-core==0.3.58
+langchain-groq==0.3.2
+langchain-community==0.3.23
+langgraph==0.4.5
+
+# Embeddings
+sentence-transformers==3.4.1
+langchain-huggingface==0.1.2
+
+# Vector Store
+faiss-cpu==1.10.0
+
+# Data Layer
+pandas==2.2.3
+openpyxl==3.1.5          # Excel file support
+
+# Environment & Config
+python-dotenv==1.1.0
+pydantic==2.11.4
+pydantic-settings==2.9.1
+
+# UI
+streamlit==1.45.1
+
+# Observability / LangSmith
+langsmith==0.3.42
+
+# Utilities
+tenacity==9.1.2           # Retry logic
+loguru==0.7.3             # Structured logging

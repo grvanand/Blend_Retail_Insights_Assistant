@@ -1,0 +1,21 @@
+# Environment
+.env
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+venv/
+env/
+
+# Logs
+logs/
+
+# FAISS index (regenerated at startup)
+vectorstore/faiss_index/
+
+# Data files
+data/raw/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
